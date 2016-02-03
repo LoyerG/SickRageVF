@@ -1,0 +1,59 @@
+#  SR User Related   #
+######################
+/cache/
+/Logs/
+/restore/
+/backup/
+cache.db*
+config.ini*
+sickbeard.db*
+failed.db*
+/autoProcessTV/autoProcessTV.cfg
+server.crt
+server.key
+
+#  SR Test Related   #
+######################
+/tests/Logs/*
+/tests/cache/*
+/tests/sickbeard.db*
+/tests/cache.db*
+/tests/failed.db
+
+#  Compiled source   #
+######################
+*.py[co]
+
+#  IDE specific      #
+######################
+*.bak
+*.tmp
+*.wpr
+*.project
+*.pydevproject
+*.cproject
+*.tmproj
+*.tmproject
+*.sw?
+Session.vim
+.ropeproject/*
+*.iml
+.idea
+*.ipr
+.settings/*
+
+# OS generated files #
+######################
+.Spotlight-V100
+.Trashes
+.DS_Store
+desktop.ini
+ehthumbs.db
+Thumbs.db
+.directory
+*~
+*.torrent
+
+# Unrar Executable   #
+######################
+lib/unrar2/UnRAR.exe
